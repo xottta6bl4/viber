@@ -1,0 +1,30 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    }
+  ],
+  "env": {
+    "AddressApiItilium": {
+      "required": true
+    },
+    "AuthToken": {
+      "required": true
+    },
+    "LoginItilium": {
+      "required": true
+    },
+    "PasswordItilium": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "viber1448",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
